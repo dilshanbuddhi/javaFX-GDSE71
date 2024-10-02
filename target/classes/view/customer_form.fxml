@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.contraller.CustomerFormContraller">
+   <children>
+      <TextField fx:id="idtxt" layoutX="100.0" layoutY="28.0" />
+      <TextField fx:id="addresstxt" layoutX="100.0" layoutY="94.0" />
+      <TextField fx:id="teltxt" layoutX="347.0" layoutY="94.0" />
+      <TextField fx:id="nametxt" layoutX="347.0" layoutY="28.0" />
+      <Label layoutX="100.0" layoutY="6.0" text="id" />
+      <Label layoutX="347.0" layoutY="76.0" text="tel" />
+      <Label layoutX="347.0" layoutY="5.0" text="name" />
+      <Label layoutX="106.0" layoutY="76.0" prefHeight="18.0" prefWidth="55.0" text="address" />
+      <Button layoutX="100.0" layoutY="143.0" mnemonicParsing="false" onAction="#saveOnAction" text="Save" />
+      <Button layoutX="184.0" layoutY="143.0" mnemonicParsing="false" onAction="#updateOnAction" text="Update" />
+      <Button layoutX="274.0" layoutY="143.0" mnemonicParsing="false" onAction="#deleteOnAction" text="delete" />
+      <Button layoutX="362.0" layoutY="140.0" mnemonicParsing="false" onAction="#searchOnAction" text="search" />
+   </children>
+</AnchorPane>
